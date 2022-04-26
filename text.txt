@@ -18,11 +18,11 @@ Layout
 		contains:buildings, upgrades
 	*buildings
 		contains:BulkDisplay, Buildings
-		header:Soldiers
+		header:Buildings
 		tooltip origin:left
 	*upgrades
 		contains:Upgrades
-		header:Armory
+		header:Upgrades
 		costs:hide
 		names:hide
 
@@ -39,7 +39,6 @@ Buttons
 		on click:yield 1 version
 		on click:anim icon wobble
 		no text
-		icon:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdU5wd6YqGfBvb-7l_T65-qGB0Blj9xoOGRMjgrL8ccVRWqdLlt0JWRQ1bwOjRiZpcZRo:https://ih1.redbubble.net/image.229705255.5949/st,small,507x507-pad,600x600,f8f8f8.jpg&usqp=CAU
 		show clicks
 
 Upgrades
