@@ -45,7 +45,6 @@ Upgrades
 	*autoBugFixer
 		name:Auto Bug fixer
 		desc:generates 1 version per second
-		icon:icons[1,1]
 		on tick:yield 1 version
 		cost:15 version
 		req:15 version:earned
